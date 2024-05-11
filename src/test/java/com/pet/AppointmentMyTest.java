@@ -30,26 +30,8 @@ class AppointmentMyTest {
 	List<Appointment> list = new ArrayList<Appointment>();
 	List<Integer> list1 = new ArrayList<Integer>();
 
-//	@Test
-//	void doAppointmnetInsert() {
-//		Appointment app = new Appointment();
-//		Pet pet=new Pet();
-//		User user=new User();
-//		
-//		app.setAppId(11);
-//		app.setAppDate("3rd MARCH");
-//		pet.setPetId(3);
-//		user.setUserId(2);
-//		app.setPet(pet);
-//		app.setUser(user);
-//	   
-//		String insertmsg = "Inserted";
-//		String result = appcontroller.newApp(app);
-//		assertEquals(insertmsg, result);
-//
-//	}
 
-//	// to get all details of Users
+	// to get all details of Users
 	@Test
 	void getAllApps() {
 
