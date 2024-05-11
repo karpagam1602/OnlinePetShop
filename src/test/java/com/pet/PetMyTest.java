@@ -23,21 +23,6 @@ class PetMyTest {
 	List<Integer> list1 = new ArrayList<Integer>();
 	List<Pet> list2 = new ArrayList<Pet>();
 
-//	@Test
-//	void doPetInsert() {
-//		Pet pet = new Pet();
-//		pet.setPetId(16);
-//		pet.setPetName("boo");
-//		pet.setPetType("cat");
-//		pet.setPetAge(2);
-//		pet.setPetWeight("7kg");
-//		pet.setPetPrice(3000.0f);
-//		String insertmsg = "Inserted";
-//		String result = petcontroller.newpet(pet);
-//		assertEquals(insertmsg, result);
-//
-//	}
-
 	// to get all details of pets
 	@Test
 	void getAllPets() {
